@@ -75,7 +75,7 @@ function draw() {
   drawSprites();
   textSize(20);
   fill(255);
-  text("Distance: "+ distance,windowWidth/2 + camera.position.x - 100,30);
+  text("Distance: "+ distance,windowWidth/2 + camera.position.x - 200,30);
   
   if(gameState===PLAY){
     
