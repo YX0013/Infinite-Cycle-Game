@@ -84,8 +84,8 @@ function draw() {
   
    mainCyclist.y = World.mouseY;
   
-   edges= createEdgeSprites();
-   mainCyclist.collide(edges);
+   //edges= createEdgeSprites();
+   //mainCyclist.collide(edges);
   
   //code to reset the background
   if(path.x < -50 ){
