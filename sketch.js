@@ -167,7 +167,7 @@ function pinkCyclists(){
 
 function yellowCyclists(){
         player2 =createSprite(1300,Math.round(random(50, 250)));
-        player2.scale =0.24;
+        player2.scale =0.12;
         player2.velocityX = -(6 + 2*distance/150);
         player2.addAnimation("opponentPlayer2",oppYellow1Img);
         player2.setLifetime=170;
